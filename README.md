@@ -2,7 +2,7 @@
 
 Benchmark results and datasets associated with:
 
-> Yamada KD, Tomii K, Katoh K. Application of the MAFFT sequence alignment program to large data—reexamination of the usefulness of chained guide trees. *Bioinformatics*. 2016;32(21):3246–3251.
+> Yamada KD, Tomii K, Katoh K, Application of the MAFFT sequence alignment program to large data - reexamination of the usefulness of chained guide trees, Bioinformatics, 2016.
 
 ## Website
 
@@ -32,4 +32,4 @@ BAliBASE and PREFAB are not redistributed in this repository. Please obtain them
 ## Contact
 
 Kazunori Yamada  
-yamada [AT] tohoku.ac.jp
+yamada@tohoku.ac.jp
