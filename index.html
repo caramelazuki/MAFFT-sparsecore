@@ -27,7 +27,7 @@
 <p>The following data include benchmark results for popular and high-speed multiple sequence aligners against currently available large-scaled benchmark dataset.</p>
 <h3>HomFam</h3>
 <table class="table1" style="width:100%;font-size:0.8em;margin:1em auto;border-spacing:0;">
-<tr><th style="width:25%;"></th><th>Small</br>(0, 3000]</br>38 files</th><th>Medium</br>(3000, 10000]</br>32 files</th><th>Large</br>(10000,]</br>19 files</th><th>All</br>[93, 93681]</br>89 files</th></tr>
+<tr><th style="width:25%;"></th><th>Small<br />(0, 3000]<br />38 files</th><th>Medium<br />(3000, 10000]<br />32 files</th><th>Large<br />(10000,]<br />19 files</th><th>All<br />[93, 93681]<br />89 files</th></tr>
 <tr><td colspan="5" style="border:none;">Mean SP / TC score</td></tr>
 <tr class="od"><td class="method">MAFFT - FFT-NS-1</td>                        <td>0.8971 / 0.7656</td><td>0.8560 / 0.6448</td><td>0.7415 / 0.5069</td><td class="bold">0.8491 / 0.6669</td></tr>
 <tr class="od"><td class="method">MAFFT - FFT-NS-1 (memsavetree)</td>          <td>0.8980 / 0.7846</td><td>0.8573 / 0.6469</td><td>0.7023 / 0.4639</td><td class="bold">0.8416 / 0.6667</td></tr>
@@ -55,31 +55,31 @@
 <tr class="od"><td class="method">UPP -default</td>                            <td>0.8678 / 0.7492</td><td>0.8708 / 0.7570</td><td>0.7956 / 0.6330</td><td class="bold">0.8535 / 0.7272</td></tr>
 <tr class="ev"><td class="method">MAFFT - G-INS-1</td>                         <td>0.9358 / 0.8549</td><td>0.9520 / 0.8480</td><td>0.8844 / 0.7441</td><td class="bold">0.9306 / 0.8288</td></tr>
 <tr><td colspan="5" style="border:none;">Total CPU time (min)</td></tr>
-<tr class="od"><td class="method">MAFFT - FFT-NS-1</td>                        <td>1.2</td><td>15</td><td>140</td><td class="bold">160</td>
+<tr class="od"><td class="method">MAFFT - FFT-NS-1</td>                        <td>1.2</td><td>15</td><td>140</td><td class="bold">160</td></tr>
 <tr class="od"><td class="method">MAFFT - FFT-NS-1 (memsavetree)</td>          <td>2.0</td><td>21</td><td>240</td><td class="bold">260</td></tr>
-<tr class="ev"><td class="method">MAFFT - FFT-NS-2</td>                        <td>2.9</td><td>36</td><td>420</td><td class="bold">460</td>
+<tr class="ev"><td class="method">MAFFT - FFT-NS-2</td>                        <td>2.9</td><td>36</td><td>420</td><td class="bold">460</td></tr>
 <tr class="ev"><td class="method">MAFFT - FFT-NS-2 (memsavetree)</td>          <td>5.6</td><td>66</td><td>910</td><td class="bold">990</td></tr>
-<tr class="od"><td class="method">MAFFT - Randomchain</td>                     <td>2.0</td><td>15</td><td>71</td><td class="bold">88</td>
+<tr class="od"><td class="method">MAFFT - Randomchain</td>                     <td>2.0</td><td>15</td><td>71</td><td class="bold">88</td></tr>
 <tr class="ev"><td class="method">MAFFT - PartTree (partsize=50)</td>          <td>1.5</td><td>11</td><td>35</td><td class="bold">47</td></tr>
 <tr class="ev"><td class="method">MAFFT - PartTree (partsize=1000)</td>        <td>3.0</td><td>21</td><td>71</td><td class="bold">94</td></tr>
 <tr class="ev"><td class="method">MAFFT - DPPartTree (partsize=50)</td>        <td>8.1</td><td>47</td><td>100</td><td class="bold">160</td></tr>
 <tr class="ev"><td class="method">MAFFT - DPPartTree (partsize=1000)</td>      <td>55</td><td>270</td><td>490</td><td class="bold">820</td></tr>
-<tr class="od"><td class="method">MAFFT - Sparsecore (p=100)</td>              <td>7.4</td><td>61</td><td>580</td><td class="bold">650</td>
-<tr class="od"><td class="method">MAFFT - Sparsecore (p=500)</td>              <td>160</td><td>390</td><td>790</td><td class="bold">1300</td>
-<tr class="od"><td class="method">MAFFT - Sparsecore (p=1000)</td>             <td>810</td><td>2100</td><td>1500</td><td class="bold">4400</td>
+<tr class="od"><td class="method">MAFFT - Sparsecore (p=100)</td>              <td>7.4</td><td>61</td><td>580</td><td class="bold">650</td></tr>
+<tr class="od"><td class="method">MAFFT - Sparsecore (p=500)</td>              <td>160</td><td>390</td><td>790</td><td class="bold">1300</td></tr>
+<tr class="od"><td class="method">MAFFT - Sparsecore (p=1000)</td>             <td>810</td><td>2100</td><td>1500</td><td class="bold">4400</td></tr>
 <tr class="ev"><td class="method">MAFFT - Sparsecore (p=100, memsavetree)</td> <td>9.8</td><td>94</td><td>1200</td><td class="bold">1300</td></tr>
 <tr class="ev"><td class="method">MAFFT - Sparsecore (p=500, memsavetree)</td> <td>150</td><td>440</td><td>1400</td><td class="bold">2000</td></tr>
 <tr class="ev"><td class="method">MAFFT - Sparsecore (p=1000, memsavetree)</td><td>730</td><td>2100</td><td>2200</td><td class="bold">5000</td></tr>
-<tr class="od"><td class="method">Clustal Omega</td>                           <td>21</td><td>160</td><td>300</td><td class="bold">480</td>
-<tr class="od"><td class="method">Clustal Omega - Full</td>                    <td>44</td><td>570</td><td>5400</td><td class="bold">6000</td>
-<tr class="od"><td class="method">Clustal Omega - Randomchain</td>             <td>130</td><td>18000</td><td>-</td><td class="bold">-</td>
-<tr class="ev"><td class="method">Muscle 1 iteration</td>                      <td>3.5</td><td>36</td><td>-</td><td class="bold">-</td>
-<tr class="ev"><td class="method">Muscle 1 iteration - Randomchain</td>        <td>1.7</td><td>9.4</td><td>45</td><td class="bold">56</td>
-<tr class="ev"><td class="method">Muscle 2 iteration</td>                      <td>9.0</td><td>120</td><td>-</td><td class="bold">-</td>
-<tr class="ev"><td class="method">Muscle 2 iteration - Randomchain</td>        <td>3.0</td><td>17</td><td>69</td><td class="bold">89</td>
-<tr class="od"><td class="method">UPP -fast</td>                               <td>53</td><td>190</td><td>260</td><td class="bold">500</td>
-<tr class="od"><td class="method">UPP -default</td>                            <td>360</td><td>1600</td><td>2400</td><td class="bold">4400</td>
-<tr class="ev"><td class="method">MAFFT - G-INS-1</td>                         <td>(370)</td><td>(5200)</td><td>(44000)</td><td class="bold">(49000)</td>
+<tr class="od"><td class="method">Clustal Omega</td>                           <td>21</td><td>160</td><td>300</td><td class="bold">480</td></tr>
+<tr class="od"><td class="method">Clustal Omega - Full</td>                    <td>44</td><td>570</td><td>5400</td><td class="bold">6000</td></tr>
+<tr class="od"><td class="method">Clustal Omega - Randomchain</td>             <td>130</td><td>18000</td><td>-</td><td class="bold">-</td></tr>
+<tr class="ev"><td class="method">Muscle 1 iteration</td>                      <td>3.5</td><td>36</td><td>-</td><td class="bold">-</td></tr>
+<tr class="ev"><td class="method">Muscle 1 iteration - Randomchain</td>        <td>1.7</td><td>9.4</td><td>45</td><td class="bold">56</td></tr>
+<tr class="ev"><td class="method">Muscle 2 iteration</td>                      <td>9.0</td><td>120</td><td>-</td><td class="bold">-</td></tr>
+<tr class="ev"><td class="method">Muscle 2 iteration - Randomchain</td>        <td>3.0</td><td>17</td><td>69</td><td class="bold">89</td></tr>
+<tr class="od"><td class="method">UPP -fast</td>                               <td>53</td><td>190</td><td>260</td><td class="bold">500</td></tr>
+<tr class="od"><td class="method">UPP -default</td>                            <td>360</td><td>1600</td><td>2400</td><td class="bold">4400</td></tr>
+<tr class="ev"><td class="method">MAFFT - G-INS-1</td>                         <td>(370)</td><td>(5200)</td><td>(44000)</td><td class="bold">(49000)</td></tr>
 </table>
 <p>Versions:</p>
 <p>MAFFT 7.294; Clustal Omega 1.2.1; Muscle 3.8.31; UPP 2.0</p>
@@ -112,7 +112,7 @@
 
 <h3>OXFam</h3>
 <table class="table1" style="width:100%;font-size:0.8em;margin:1em auto;border-spacing:0;">
-<tr><th style="width:25%;"></th><th>Small</br>(0, 3000]</br>74 files</th><th>Medium</br>(3000, 10000]</br>59 files</th><th>Large</br>(10000,]</br>32 files</th><th>All</br>[19, 81503]</br>165 files</th></tr>
+<tr><th style="width:25%;"></th><th>Small<br />(0, 3000]<br />74 files</th><th>Medium<br />(3000, 10000]<br />59 files</th><th>Large<br />(10000,]<br />32 files</th><th>All<br />[19, 81503]<br />165 files</th></tr>
 <tr><td colspan="5" style="border:none;">Mean SP / TC score</td></tr>
 <tr class="od"><td class="method">MAFFT - FFT-NS-1</td>                        <td>0.9248 / 0.8936</td><td>0.8813 / 0.8142</td><td>0.7884 / 0.7018</td><td class="bold">0.8828 / 0.8280</td></tr>
 <tr class="od"><td class="method">MAFFT - FFT-NS-1 (memsavetree)</td>          <td>0.9157 / 0.8840</td><td>0.8652 / 0.7933</td><td>0.7648 / 0.6963</td><td class="bold">0.8684 / 0.8152</td></tr>
@@ -140,31 +140,31 @@
 <tr class="od"><td class="method">UPP -default</td>                            <td>0.9415 / 0.9138</td><td>0.9068 / 0.8676</td><td>0.8211 / 0.7601</td><td class="bold">0.9057 / 0.8675</td></tr>
 <tr class="ev"><td class="method">MAFFT - G-INS-1</td>                         <td>0.9572 / 0.9358</td><td>0.9485 / 0.9147</td><td>0.8749 / 0.8212</td><td class="bold">0.9381 / 0.9060</td></tr>
 <tr><td colspan="5" style="border:none;">Total CPU time (min)</td></tr>
-<tr class="od"><td class="method">MAFFT - FFT-NS-1</td>                        <td>2.4</td><td>31</td><td>160</td><td class="bold">200</td>
+<tr class="od"><td class="method">MAFFT - FFT-NS-1</td>                        <td>2.4</td><td>31</td><td>160</td><td class="bold">200</td></tr>
 <tr class="od"><td class="method">MAFFT - FFT-NS-1 (memsavetree)</td>          <td>3.8</td><td>50</td><td>270</td><td class="bold">330</td></tr>
-<tr class="ev"><td class="method">MAFFT - FFT-NS-2</td>                        <td>5.5</td><td>81</td><td>470</td><td class="bold">560</td>
+<tr class="ev"><td class="method">MAFFT - FFT-NS-2</td>                        <td>5.5</td><td>81</td><td>470</td><td class="bold">560</td></tr>
 <tr class="ev"><td class="method">MAFFT - FFT-NS-2 (memsavetree)</td>          <td>11</td><td>170</td><td>1000</td><td class="bold">1200</td></tr>
-<tr class="od"><td class="method">MAFFT - Randomchain</td>                     <td>3.4</td><td>30</td><td>96</td><td class="bold">130</td>
+<tr class="od"><td class="method">MAFFT - Randomchain</td>                     <td>3.4</td><td>30</td><td>96</td><td class="bold">130</td></tr>
 <tr class="ev"><td class="method">MAFFT - PartTree (partsize=50)</td>          <td>2.7</td><td>22</td><td>59</td><td class="bold">83</td></tr>
 <tr class="ev"><td class="method">MAFFT - PartTree (partsize=1000)</td>        <td>6.2</td><td>51</td><td>140</td><td class="bold">190</td></tr>
 <tr class="ev"><td class="method">MAFFT - DPPartTree (partsize=50)</td>        <td>16</td><td>110</td><td>210</td><td class="bold">340</td></tr>
 <tr class="ev"><td class="method">MAFFT - DPPartTree (partsize=1000)</td>      <td>120</td><td>780</td><td>1500</td><td class="bold">2400</td></tr>
-<tr class="od"><td class="method">MAFFT - Sparsecore (p=100)</td>              <td>11</td><td>130</td><td>660</td><td class="bold">800</td>
-<tr class="od"><td class="method">MAFFT - Sparsecore (p=500)</td>              <td>190</td><td>640</td><td>1000</td><td class="bold">1900</td>
-<tr class="od"><td class="method">MAFFT - Sparsecore (p=1000)</td>             <td>1100</td><td>3500</td><td>2800</td><td class="bold">7500</td>
+<tr class="od"><td class="method">MAFFT - Sparsecore (p=100)</td>              <td>11</td><td>130</td><td>660</td><td class="bold">800</td></tr>
+<tr class="od"><td class="method">MAFFT - Sparsecore (p=500)</td>              <td>190</td><td>640</td><td>1000</td><td class="bold">1900</td></tr>
+<tr class="od"><td class="method">MAFFT - Sparsecore (p=1000)</td>             <td>1100</td><td>3500</td><td>2800</td><td class="bold">7500</td></tr>
 <tr class="ev"><td class="method">MAFFT - Sparsecore (p=100, memsavetree)</td> <td>17</td><td>210</td><td>1300</td><td class="bold">1500</td></tr>
 <tr class="ev"><td class="method">MAFFT - Sparsecore (p=500, memsavetree)</td> <td>200</td><td>720</td><td>1700</td><td class="bold">2600</td></tr>
 <tr class="ev"><td class="method">MAFFT - Sparsecore (p=1000, memsavetree)</td><td>1100</td><td>3400</td><td>3300</td><td class="bold">7900</td></tr>
-<tr class="od"><td class="method">Clustal Omega</td>                           <td>27</td><td>220</td><td>590</td><td class="bold">840</td>
-<tr class="od"><td class="method">Clustal Omega - Full</td>                    <td>82</td><td>1300</td><td>7100</td><td class="bold">8400</td>
-<tr class="od"><td class="method">Clustal Omega - Randomchain</td>             <td>170</td><td>4600</td><td>-</td><td class="bold">-</td>
-<tr class="ev"><td class="method">Muscle 1 iteration</td>                      <td>7.1</td><td>94</td><td>-</td><td class="bold">-</td>
-<tr class="ev"><td class="method">Muscle 1 iteration - Randomchain</td>        <td>3.1</td><td>21</td><td>53</td><td class="bold">77</td>
-<tr class="ev"><td class="method">Muscle 2 iteration</td>                      <td>18</td><td>320</td><td>-</td><td class="bold">-</td>
-<tr class="ev"><td class="method">Muscle 2 iteration - Randomchain</td>        <td>5.5</td><td>38</td><td>85</td><td class="bold">130</td>
-<tr class="od"><td class="method">UPP -fast</td>                               <td>92</td><td>380</td><td>540</td><td class="bold">1000</td>
-<tr class="od"><td class="method">UPP -default</td>                            <td>660</td><td>3300</td><td>4900</td><td class="bold">8900</td>
-<tr class="ev"><td class="method">MAFFT - G-INS-1</td>                         <td>(760)</td><td>(13000)</td><td>(71000)</td><td class="bold">(86000)</td>
+<tr class="od"><td class="method">Clustal Omega</td>                           <td>27</td><td>220</td><td>590</td><td class="bold">840</td></tr>
+<tr class="od"><td class="method">Clustal Omega - Full</td>                    <td>82</td><td>1300</td><td>7100</td><td class="bold">8400</td></tr>
+<tr class="od"><td class="method">Clustal Omega - Randomchain</td>             <td>170</td><td>4600</td><td>-</td><td class="bold">-</td></tr>
+<tr class="ev"><td class="method">Muscle 1 iteration</td>                      <td>7.1</td><td>94</td><td>-</td><td class="bold">-</td></tr>
+<tr class="ev"><td class="method">Muscle 1 iteration - Randomchain</td>        <td>3.1</td><td>21</td><td>53</td><td class="bold">77</td></tr>
+<tr class="ev"><td class="method">Muscle 2 iteration</td>                      <td>18</td><td>320</td><td>-</td><td class="bold">-</td></tr>
+<tr class="ev"><td class="method">Muscle 2 iteration - Randomchain</td>        <td>5.5</td><td>38</td><td>85</td><td class="bold">130</td></tr>
+<tr class="od"><td class="method">UPP -fast</td>                               <td>92</td><td>380</td><td>540</td><td class="bold">1000</td></tr>
+<tr class="od"><td class="method">UPP -default</td>                            <td>660</td><td>3300</td><td>4900</td><td class="bold">8900</td></tr>
+<tr class="ev"><td class="method">MAFFT - G-INS-1</td>                         <td>(760)</td><td>(13000)</td><td>(71000)</td><td class="bold">(86000)</td></tr>
 </table>
 <p>Versions:</p>
 <p>MAFFT 7.294; Clustal Omega 1.2.1; Muscle 3.8.31; UPP 2.0</p>
@@ -197,7 +197,7 @@
 
 <h3>ContTest</h3>
 <table class="table1" style="width:100%;font-size:0.8em;margin:1em auto;border-spacing:0;">
-<tr><th style="width:25%;"></th><th>Small</br>(0, 3000]</br>15 files</th><th>Medium</br>(3000, 10000]</br>70 files</th><th>Large</br>(10000,]</br>51 files</th><th>All</br>[1467, 43912]</br>136 files</th></tr>
+<tr><th style="width:25%;"></th><th>Small<br />(0, 3000]<br />15 files</th><th>Medium<br />(3000, 10000]<br />70 files</th><th>Large<br />(10000,]<br />51 files</th><th>All<br />[1467, 43912]<br />136 files</th></tr>
 <tr><td colspan="5" style="border:none;">Mean ContTest score</td></tr>
 <tr class="od"><td class="method">MAFFT - FFT-NS-1</td>                        <td>0.3830</td><td>0.4803</td><td>0.5231</td><td class="bold">0.4856</td></tr>
 <tr class="od"><td class="method">MAFFT - FFT-NS-1 (memsavetree)</td>          <td>0.3915</td><td>0.4857</td><td>0.5076</td><td class="bold">0.4835</td></tr>
@@ -225,31 +225,31 @@
 <tr class="od"><td class="method">UPP -default</td>                            <td>0.3555</td><td>0.5254</td><td>0.5936</td><td class="bold">0.5323</td></tr>
 <tr class="ev"><td class="method">MAFFT - G-INS-1</td>                         <td>0.3853</td><td>0.5445</td><td>0.6582</td><td class="bold">0.5696</td></tr>
 <tr><td colspan="5" style="border:none;">Total CPU time (min)</td></tr>
-<tr class="od"><td class="method">MAFFT - FFT-NS-1</td>                        <td>0.48</td><td>20</td><td>150</td><td class="bold">170</td>
-<tr class="od"><td class="method">MAFFT - FFT-NS-1 (memsavetree)</td>          <td>0.84</td><td>36</td><td>240</td><td class="bold">280</td>
-<tr class="ev"><td class="method">MAFFT - FFT-NS-2</td>                        <td>1.2</td><td>54</td><td>440</td><td class="bold">500</td>
-<tr class="ev"><td class="method">MAFFT - FFT-NS-2 (memsavetree)</td>          <td>2.5</td><td>120</td><td>990</td><td class="bold">1100</td>
-<tr class="od"><td class="method">MAFFT - Randomchain</td>                     <td>0.56</td><td>16</td><td>88</td><td class="bold">100</td>
-<tr class="ev"><td class="method">MAFFT - PartTree (partsize=50)</td>          <td>0.44</td><td>11</td><td>50</td><td class="bold">61</td>
-<tr class="ev"><td class="method">MAFFT - PartTree (partsize=1000)</td>        <td>1.0</td><td>24</td><td>120</td><td class="bold">140</td>
-<tr class="ev"><td class="method">MAFFT - DPPartTree (partsize=50)</td>        <td>2.3</td><td>53</td><td>160</td><td class="bold">210</td>
-<tr class="ev"><td class="method">MAFFT - DPPartTree (partsize=1000)</td>      <td>14</td><td>260</td><td>770</td><td class="bold">1000</td>
-<tr class="od"><td class="method">MAFFT - Sparsecore (p=100)</td>              <td>2.2</td><td>77</td><td>650</td><td class="bold">730</td>
-<tr class="od"><td class="method">MAFFT - Sparsecore (p=500)</td>              <td>30</td><td>250</td><td>930</td><td class="bold">1200</td>
-<tr class="od"><td class="method">MAFFT - Sparsecore (p=1000)</td>             <td>160</td><td>1100</td><td>2100</td><td class="bold">3400</td>
+<tr class="od"><td class="method">MAFFT - FFT-NS-1</td>                        <td>0.48</td><td>20</td><td>150</td><td class="bold">170</td></tr>
+<tr class="od"><td class="method">MAFFT - FFT-NS-1 (memsavetree)</td>          <td>0.84</td><td>36</td><td>240</td><td class="bold">280</td></tr>
+<tr class="ev"><td class="method">MAFFT - FFT-NS-2</td>                        <td>1.2</td><td>54</td><td>440</td><td class="bold">500</td></tr>
+<tr class="ev"><td class="method">MAFFT - FFT-NS-2 (memsavetree)</td>          <td>2.5</td><td>120</td><td>990</td><td class="bold">1100</td></tr>
+<tr class="od"><td class="method">MAFFT - Randomchain</td>                     <td>0.56</td><td>16</td><td>88</td><td class="bold">100</td></tr>
+<tr class="ev"><td class="method">MAFFT - PartTree (partsize=50)</td>          <td>0.44</td><td>11</td><td>50</td><td class="bold">61</td></tr>
+<tr class="ev"><td class="method">MAFFT - PartTree (partsize=1000)</td>        <td>1.0</td><td>24</td><td>120</td><td class="bold">140</td></tr>
+<tr class="ev"><td class="method">MAFFT - DPPartTree (partsize=50)</td>        <td>2.3</td><td>53</td><td>160</td><td class="bold">210</td></tr>
+<tr class="ev"><td class="method">MAFFT - DPPartTree (partsize=1000)</td>      <td>14</td><td>260</td><td>770</td><td class="bold">1000</td></tr>
+<tr class="od"><td class="method">MAFFT - Sparsecore (p=100)</td>              <td>2.2</td><td>77</td><td>650</td><td class="bold">730</td></tr>
+<tr class="od"><td class="method">MAFFT - Sparsecore (p=500)</td>              <td>30</td><td>250</td><td>930</td><td class="bold">1200</td></tr>
+<tr class="od"><td class="method">MAFFT - Sparsecore (p=1000)</td>             <td>160</td><td>1100</td><td>2100</td><td class="bold">3400</td></tr>
 <tr class="ev"><td class="method">MAFFT - Sparsecore (p=100, memsavetree)</td> <td>3.4</td><td>140</td><td>1300</td><td class="bold">1500</td></tr>
 <tr class="ev"><td class="method">MAFFT - Sparsecore (p=500, memsavetree)</td> <td>40</td><td>310</td><td>1600</td><td class="bold">2000</td></tr>
 <tr class="ev"><td class="method">MAFFT - Sparsecore (p=1000, memsavetree)</td><td>180</td><td>1200</td><td>2800</td><td class="bold">4200</td></tr>
-<tr class="od"><td class="method">Clustal Omega</td>                           <td>5.0</td><td>130</td><td>460</td><td class="bold">600</td>
-<tr class="od"><td class="method">Clustal Omega - Full</td>                    <td>16</td><td>830</td><td>5600</td><td class="bold">6400</td>
-<tr class="od"><td class="method">Clustal Omega - Randomchain</td>             <td>28</td><td>6400</td><td>110000</td><td class="bold">120000</td>
-<tr class="ev"><td class="method">Muscle 1 iteration</td>                      <td>2.0</td><td>81</td><td>550</td><td class="bold">630</td>
-<tr class="ev"><td class="method">Muscle 1 iteration - Randomchain</td>        <td>0.53</td><td>13</td><td>50</td><td class="bold">63</td>
-<tr class="ev"><td class="method">Muscle 2 iteration</td>                      <td>3.9</td><td>230</td><td>2500</td><td class="bold">2700</td>
-<tr class="ev"><td class="method">Muscle 2 iteration - Randomchain</td>        <td>0.86</td><td>22</td><td>78</td><td class="bold">100</td>
-<tr class="od"><td class="method">UPP -fast</td>                               <td>17</td><td>230</td><td>500</td><td class="bold">750</td>
-<tr class="od"><td class="method">UPP -default</td>                            <td>130</td><td>2000</td><td>4600</td><td class="bold">6700</td>
-<tr class="ev"><td class="method">MAFFT - G-INS-1</td>                         <td>(110)</td><td>(7100)</td><td>(48000)</td><td class="bold">(55000)</td>
+<tr class="od"><td class="method">Clustal Omega</td>                           <td>5.0</td><td>130</td><td>460</td><td class="bold">600</td></tr>
+<tr class="od"><td class="method">Clustal Omega - Full</td>                    <td>16</td><td>830</td><td>5600</td><td class="bold">6400</td></tr>
+<tr class="od"><td class="method">Clustal Omega - Randomchain</td>             <td>28</td><td>6400</td><td>110000</td><td class="bold">120000</td></tr>
+<tr class="ev"><td class="method">Muscle 1 iteration</td>                      <td>2.0</td><td>81</td><td>550</td><td class="bold">630</td></tr>
+<tr class="ev"><td class="method">Muscle 1 iteration - Randomchain</td>        <td>0.53</td><td>13</td><td>50</td><td class="bold">63</td></tr>
+<tr class="ev"><td class="method">Muscle 2 iteration</td>                      <td>3.9</td><td>230</td><td>2500</td><td class="bold">2700</td></tr>
+<tr class="ev"><td class="method">Muscle 2 iteration - Randomchain</td>        <td>0.86</td><td>22</td><td>78</td><td class="bold">100</td></tr>
+<tr class="od"><td class="method">UPP -fast</td>                               <td>17</td><td>230</td><td>500</td><td class="bold">750</td></tr>
+<tr class="od"><td class="method">UPP -default</td>                            <td>130</td><td>2000</td><td>4600</td><td class="bold">6700</td></tr>
+<tr class="ev"><td class="method">MAFFT - G-INS-1</td>                         <td>(110)</td><td>(7100)</td><td>(48000)</td><td class="bold">(55000)</td></tr>
 </table>
 <p>Versions:</p>
 <p>MAFFT 7.294; Clustal Omega 1.2.1; Muscle 3.8.31; UPP 2.0</p>
@@ -282,9 +282,9 @@
 
 </div><!-- main end-->
 <div id="footer" style="border-top:1px solid #ccc;">
-<p>MAFFT official website: <a href="http://mafft.cbrc.jp/alignment/software/" target="_blank">LINK</a><br>
+<p>MAFFT official website: <a href="http://mafft.cbrc.jp/alignment/software/" target="_blank">LINK</a><br />
 Contact for this page: yamada [AT] tohoku.ac.jp</p>
-<br>
+<br />
 </div><!-- footer end -->
 </div><!-- contents end -->
 </body>
