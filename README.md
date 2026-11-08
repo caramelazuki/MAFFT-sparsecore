@@ -17,11 +17,6 @@ The complete benchmark tables are published at:
 
 The archived files are distributed through the [`datasets-v1`](https://github.com/caramelazuki/MAFFT-sparsecore/releases/tag/datasets-v1) release.
 
-BAliBASE and PREFAB are not redistributed in this repository. Please obtain them from their original providers:
-
-- [BAliBASE](https://bigest-icube.fr/balibase/)
-- [PREFAB](https://www.drive5.com/bench/)
-
 ## File integrity
 
 | File | SHA-256 |
